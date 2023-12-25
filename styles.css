@@ -19,7 +19,7 @@
     display: flex;
     text-align: center;
     align-items: baseline;
-    background: rgb(52, 210, 41);
+    background: black
   }
   
   .counter > * {
@@ -43,3 +43,13 @@
     margin-bottom: 10px;
   }
 
+  h2{
+    color: white;
+  }
+
+  .btn {
+    background: linear-gradient(180deg, #fa4646 0%, #eb2626 35%, #b91914 100%);
+    border-radius: 8px;
+    color: white;
+    padding: .75rem 1.5rem;
+  }

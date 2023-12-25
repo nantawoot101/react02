@@ -13,11 +13,17 @@ function Counter() {
     }
     
 
+    const hlClick = () => {
+        console.log('Add Counter Clicked');
+    };
+
+
 function App(){
     return (
         <div className="counter1">
+            <h1>Today : {new Date().toDateString()}</h1>
             <h1>Sum = 0</h1>
-            <button on> Add Counter</button>
+            <button className="btn" onClick={hlClick}>Add Counter</button>
             <Counter />
         </div>
     );
